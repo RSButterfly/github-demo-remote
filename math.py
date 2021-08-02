@@ -9,7 +9,8 @@ def subtract(x,y):
 
 #Multiply implementation
 def multiply(x,y):
-    return x*-y         # on branch Bug456
+    c = x*y
+    return c         # on local repo
 
 #Divide implementation
 def divide(x,y):
